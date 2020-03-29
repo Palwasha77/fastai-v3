@@ -8,7 +8,7 @@ from starlette.applications import Starlette
 from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
-
+#  Address of the model i.e., export.pkl file. it can be a URL or pathname
 export_file_url = 'https://drive.google.com/uc?export=download&id=1-5Y5QQ6OL91RjQlXixifXrRVHgQb_ty-'
 export_file_name = 'export.pkl'
 
